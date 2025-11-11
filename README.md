@@ -1,10 +1,8 @@
-Oke ✅ berikut **README.md final** yang sudah disesuaikan dengan tema kamu — “Game Store Management” (mirip katalog Google Play) dan sudah memenuhi semua poin tugas.
-Kamu bisa langsung simpan file ini di root project (`TP7DPBO2425C-NIM-Nama/README.md`).
 
 ---
 
 ```markdown
-# TP7DPBO2425C - Game Store Management (PHP OOP)
+# TP9DPBO2425C2 - Game Store Management (PHP OOP)
 
 > Tugas Praktikum OOP (Desain dan Pemrograman Berorientasi Objek) — Website manajemen data game dengan relasi antar tabel, menggunakan PHP + MySQL (PDO & Prepared Statement).
 
@@ -64,7 +62,7 @@ developers (1)───(∞) games (∞)───(1) genres
 ---
 
 ## 💾 File SQL (Database)
-File: `database.sql`
+File: `tp9_games.sql`
 
 ```sql
 CREATE DATABASE IF NOT EXISTS tp9_gamestore;
@@ -144,9 +142,9 @@ TP7DPBO2425C-<NIM>-<Nama>/
 
 ## 💻 Cara Menjalankan Aplikasi
 
-1. Jalankan **MySQL** dan import `database.sql`.
+1. Jalankan **MySQL** dan import `tp9_games.sql`.
 2. Edit file `src/config/database.php` bila perlu (user, password, db name).
-3. Jalankan server PHP di folder project:
+3. Jalankan server PHP di path folder public/:
 
    ```bash
    php -S localhost:8000 -t public
@@ -192,24 +190,9 @@ Screen record demonstrasi CRUD untuk:
 * Menambah developer & genre
 * Menambah game baru dengan relasi
 * Mengedit & menghapus data
-
-📹 (tambahkan file `.mp4` hasil rekaman di repo atau link YouTube/Drive)
-
----
-
-## 📦 Penamaan Repo GitHub
-
-Gunakan format:
-
-```
-TP7DPBO2425C-<NIM>-<Nama>
-```
-
-Contoh:
-
-```
-TP7DPBO2425C-2108101-YassarMuwaffaq
-```
+<video src="assets/462ecb54-6c7e-4a7a-a687-f5ba79ff8be8" controls width="640" poster="assets/thumbnail.png">
+  Maaf, browser Anda tidak mendukung video.
+</video>
 
 ---
 
@@ -236,7 +219,6 @@ TP7DPBO2425C-2108101-YassarMuwaffaq
 
 https://github.com/user-attachments/assets/462ecb54-6c7e-4a7a-a687-f5ba79ff8be8
 
-<video src="assets/462ecb54-6c7e-4a7a-a687-f5ba79ff8be8" controls width="640" poster="assets/thumbnail.png">
-  Maaf, browser Anda tidak mendukung video.
-</video>
+
+
 
