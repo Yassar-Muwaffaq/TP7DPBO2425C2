@@ -62,7 +62,7 @@ developers (1)───(∞) games (∞)───(1) genres
 ---
 
 ## 💾 File SQL (Database)
-File: `game_store.sql`
+File: `database.sql`
 
 ```sql
 CREATE DATABASE IF NOT EXISTS game_store;
@@ -218,6 +218,7 @@ Screen record demonstrasi CRUD untuk:
 > **Dosen:** Rosa Ariani
 
 ```
+
 
 
 
