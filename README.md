@@ -2,7 +2,7 @@
 ---
 
 ```markdown
-# TP9DPBO2425C2 - Game Store Management (PHP OOP)
+# TP7DPBO2425C2 - Game Store Management (PHP OOP)
 
 > Tugas Praktikum OOP (Desain dan Pemrograman Berorientasi Objek) — Website manajemen data game dengan relasi antar tabel, menggunakan PHP + MySQL (PDO & Prepared Statement).
 
@@ -18,7 +18,7 @@ Setiap game memiliki **developer** dan **genre**, dan data ini saling berhubunga
 
 ## 🧱 Struktur Database
 
-Database: `tp9_gamestore`
+Database: `tp7_gamestore`
 
 ### 1. `developers`
 | Kolom | Tipe | Keterangan |
@@ -62,11 +62,11 @@ developers (1)───(∞) games (∞)───(1) genres
 ---
 
 ## 💾 File SQL (Database)
-File: `tp9_games.sql`
+File: `tp7_games.sql`
 
 ```sql
-CREATE DATABASE IF NOT EXISTS tp9_gamestore;
-USE tp9_gamestore;
+CREATE DATABASE IF NOT EXISTS tp7_gamestore;
+USE tp7_gamestore;
 
 CREATE TABLE developers (
   id INT AUTO_INCREMENT PRIMARY KEY,
@@ -114,7 +114,7 @@ INSERT INTO games (title, developer_id, genre_id, release_year, rating, price) V
 ## ⚙️ Struktur Folder Proyek
 
 ```
-TP7DPBO2425C-<NIM>-<Nama>/
+TP7DPBO2425C2/
 ├─ public/
 │  └─ index.php              # Router utama (CRUD Games/Developers/Genres)
 ├─ src/
@@ -135,6 +135,7 @@ TP7DPBO2425C-<NIM>-<Nama>/
 │        ├─ list.php
 │        └─ form.php
 ├─ database.sql
+├─ Demo.mp4                   #Video Dokumentasi
 └─ README.md
 ```
 
@@ -142,7 +143,7 @@ TP7DPBO2425C-<NIM>-<Nama>/
 
 ## 💻 Cara Menjalankan Aplikasi
 
-1. Jalankan **MySQL** dan import `tp9_games.sql`.
+1. Jalankan **MySQL** dan import `tp7_games.sql`.
 2. Edit file `src/config/database.php` bila perlu (user, password, db name).
 3. Jalankan server PHP di path folder public/:
 
@@ -217,6 +218,7 @@ Screen record demonstrasi CRUD untuk:
 > **Dosen:** Rosa Ariani
 
 ```
+
 
 
 
