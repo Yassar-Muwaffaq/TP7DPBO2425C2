@@ -190,9 +190,9 @@ Screen record demonstrasi CRUD untuk:
 * Menambah developer & genre
 * Menambah game baru dengan relasi
 * Mengedit & menghapus data
-<video src="Demo.mp4" controls width="640" poster="assets/thumbnail.png">
+<img src="Demo.mp4" controls width="640" poster="assets/thumbnail.png">
   Maaf, browser Anda tidak mendukung video.
-</video>
+</img>
 
 ---
 
@@ -215,3 +215,4 @@ Screen record demonstrasi CRUD untuk:
 > **Dosen:** Rosa Ariani
 
 ```
+
